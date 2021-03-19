@@ -1,0 +1,57 @@
+
+html{
+	position: relative;
+	min-height: 100% ;
+
+}
+body{
+	margin:0px;
+	font-family: Arvo  ,'serif';
+	background: url('Images/background.png') no-repeat ;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 1.5;
+	padding-bottom: 50px;
+}
+.navbar{
+	background-color: #62aacf;
+}
+.navbar .nav-item .nav-link , .navbar .navbar-brand{
+    color:rgb(235, 235, 242);
+    background-color: transparent;
+}
+nav a:active{
+	color:black;
+}
+.navbar button span{
+    background-color: white;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	background-color: #62aacf;
+	min-width: 100%;
+	line-height:  1.5;
+	/*margin-bottom: 50px;*/
+	
+}
+#notepad textarea{
+	width: 100%;
+	font-size: 20px;
+	line-height: 1.5;
+	border-left: 24px solid #ca3dd9;
+}
+#notepad{
+	display: none;
+}
+#profiletabel tbody tr{
+	cursor: pointer;
+}
+.noteheader{
+	border:1px solid grey;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	padding: 0px 10px;
+	background: linear-gradient(#FFFFFF, #ECEAE7);
+}
